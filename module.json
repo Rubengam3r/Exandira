@@ -1,0 +1,106 @@
+{
+	"id": "exandria-base",
+	"title": "Exandria",
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "12",
+		"verified": "12"
+	},
+		"relationships": {
+		"requires": [
+			{
+				"compatibility": {},
+				"id": "monks-active-tiles",
+				"type": "module"
+			}
+		]
+	},
+	"description": "This module acts as the base for the world of Exandria in the world of Critical Role.",
+	"authors": [
+		{
+			"flags": {},
+			"name": "RubenGamer"
+		}
+	],
+	"packs": [
+		{
+			"name": "items",
+			"label": "Items",
+			"path": "packs/items",
+			"type": "Item",
+			"ownership": {
+				"ASSISTANT": "OWNER",
+				"PLAYER": "OBSERVER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{
+			"flags": {},
+			"label": "Actors",
+			"name": "actors",
+			"ownership": {
+				"ASSISTANT": "OWNER",
+				"PLAYER": "OBSERVER"
+			},
+			"path": "packs/actors",
+			"system": "dnd5e",
+			"type": "Actor"
+		},
+		{
+			"flags": {},
+			"label": "Journal Entry",
+			"name": "journal-entry",
+			"ownership": {
+				"ASSISTANT": "OWNER",
+				"PLAYER": "OBSERVER"
+			},
+			"path": "packs/journal-entry",
+			"type": "JournalEntry"
+		},
+		{
+			"flags": {},
+			"label": "Macro",
+			"name": "macro",
+			"ownership": {
+				"ASSISTANT": "OWNER",
+				"PLAYER": "OBSERVER"
+			},
+			"path": "packs/macro",
+			"type": "Macro"
+		},
+		{
+			"flags": {},
+			"label": "Playlist",
+			"name": "playlist",
+			"ownership": {
+				"ASSISTANT": "OWNER",
+				"PLAYER": "OBSERVER"
+			},
+			"path": "packs/playlist",
+			"type": "Playlist"
+		},
+		{
+			"flags": {},
+			"label": "Roll Table",
+			"name": "roll-table",
+			"ownership": {
+				"ASSISTANT": "OWNER",
+				"PLAYER": "OBSERVER"
+			},
+			"path": "packs/roll-table",
+			"type": "RollTable"
+		},
+		{
+			"flags": {},
+			"label": "Scene",
+			"name": "scene",
+			"ownership": {
+				"ASSISTANT": "OWNER",
+				"PLAYER": "OBSERVER"
+			},
+			"path": "packs/scene",
+			"type": "Scene"
+		}
+	],
+}
